@@ -1,4 +1,18 @@
-.App {
+@import "./header.scss";
+@import "./todolist.scss";
+@import "./todoitem.scss";
 
+.App {
 }
 
+.container{
+  background-color: #fff;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.popupInput{
+  padding: 14px;
+  background-color: #d3d3d3;
+  margin: 20px 0;
+}

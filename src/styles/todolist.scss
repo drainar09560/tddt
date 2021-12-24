@@ -1,0 +1,27 @@
+
+.list{
+  border: 2px solid #7583FF;
+  margin-bottom: 60px;
+  cursor: default;
+
+
+  &_header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    //margin: 0 40px;
+
+  }
+
+  &_title{
+    font-size: 22px;
+    font-weight: bold;
+    color: #7583FF;
+    margin-left: 10px;
+  }
+
+  &_delBtn{
+    height: 20px;
+    margin-right: 10px;
+  }
+}
